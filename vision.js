@@ -1,6 +1,7 @@
 var Hapi = require('hapi');
 var vision = require('vision') ;
 var path = require('path') ;
+var blipp = require('blipp') ;
 var server = new Hapi.Server();
 
 
@@ -10,13 +11,21 @@ server.register(vision, (err) => {
       engines : {
         handlebars : {
           module : require('handlebars'),
-          
+
         }
       },
       relativeTo : __dirname,
       path : 'templates'
     })
 });
+
+server.register(blipp,(err)=> {
+   if(err){
+     console.error("An Error occured, while registering blipp ") ;
+   } else {
+     console.log('Blipp Registered successfully ') ;
+   }
+})
 
 // I talso add a decorator reply.file with the path of the file.
 
