@@ -16,7 +16,12 @@ server.route({
 
 server.register([Blipp,
      { register: UserPlugin, options : {}}]
-      , (err) => {
+      , {
+        routes : {
+          prefix : '/v1' 
+        }
+      }
+      ,(err) => {
          if(err) {
 
          }
