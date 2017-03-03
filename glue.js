@@ -1,10 +1,7 @@
-/// See https://github.com/hapijs/glue/blob/master/API.md  
+/// See https://github.com/hapijs/glue/blob/master/API.md
 
 var Glue = require('glue') ;
 var Blipp = require('blipp') ;
-
-var Hapi = require('hapi') ;
-var Server = new Hapi.Server();
 
 var manifest = {
      server : {},
