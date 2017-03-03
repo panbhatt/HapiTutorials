@@ -8,3 +8,4 @@
 * node plugins.js [ For how to use to plugin]
 
 * node dbPluginDepExp.js [ For plugin dependency and exposing a function]  
+* node glue.js [ For configurting the plugins via GLUE ] 
