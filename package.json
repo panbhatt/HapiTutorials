@@ -3,11 +3,17 @@
   "version": "0.0.1",
   "description": "first hapi",
   "main": "index.js",
+  "scripts" : {
+    "test" : "lab ./test/index.js -v",
+    "testServer" : "lab ./test/serverTest.js -v",
+    "testServer1" : "lab ./test/server1.js -v"
+  },
   "repository": {},
   "license": "MIT",
   "dependencies": {
     "blipp": "^2.3.0",
     "boom": "^4.2.0",
+    "code": "^4.0.0",
     "glue": "^4.1.0",
     "good": "^7.1.0",
     "good-console": "^6.4.0",
@@ -17,6 +23,7 @@
     "hapi": "^16.1.0",
     "hapi-level": "^5.0.1",
     "inert": "^4.1.0",
+    "lab": "^12.1.0",
     "uuid": "^3.0.1",
     "vision": "^4.1.1"
   }

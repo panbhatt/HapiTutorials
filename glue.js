@@ -26,3 +26,9 @@ Glue.compose(manifest, { relativeTo : __dirname }, (err, server) => {
         }
     });
 });
+
+
+/*
+  You must have to see 'REJOICE' https://github.com/hapijs/rejoice .
+  You can directly import the above configuration from index.js files and it starts the server. 
+*/

@@ -8,4 +8,20 @@
 * node plugins.js [ For how to use to plugin]
 
 * node dbPluginDepExp.js [ For plugin dependency and exposing a function]  
-* node glue.js [ For configurting the plugins via GLUE ] 
+* node glue.js [ For configurting the plugins via GLUE ]
+
+## Testing Related
+
+* npm run test [ Running first test ]
+* npm run testServer [ Testing a server in hapi ]
+* npm run testServer1 [ Moving server.js in another file and using it to test the routes] 
+
+
+
+
+
+
+
+
+## Plugins that i found helpful
+* https://github.com/shakefon/consistency  : Consitency plugin for API Versioning.
