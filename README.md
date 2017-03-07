@@ -14,9 +14,11 @@
 
 * npm run test [ Running first test ]
 * npm run testServer [ Testing a server in hapi ]
-* npm run testServer1 [ Moving server.js in another file and using it to test the routes] 
+* npm run testServer1 [ Moving server.js in another file and using it to test the routes, with coverage]
 
 
+## Authentication and Authorization
+* node security1/basic.js  [ This will test the basic authentication ]
 
 
 
