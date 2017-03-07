@@ -19,7 +19,7 @@
 
 ## Authentication and Authorization
 * node security1/basic.js  [ This will test the basic authentication ]
-
+* node  security2/index.js [ This will test the COOKIE SESSION Based authentication] 
 
 
 
