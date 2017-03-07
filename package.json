@@ -7,7 +7,6 @@
     "test": "lab ./test/index.js -v",
     "testServer": "lab ./test/serverTest.js -v",
     "testServer1": "lab ./test/server1.js -v -c"
-    
   },
   "repository": {},
   "license": "MIT",
@@ -23,6 +22,7 @@
     "handlebars": "^4.0.6",
     "hapi": "^16.1.0",
     "hapi-auth-basic": "^4.2.0",
+    "hapi-auth-cookie": "^6.1.1",
     "hapi-level": "^5.0.1",
     "inert": "^4.1.0",
     "lab": "^12.1.0",
