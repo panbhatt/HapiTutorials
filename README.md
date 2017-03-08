@@ -24,6 +24,9 @@
 ## Joi validation
 * node joi/routeValidation.js [ This will check the incoming GET/POST request for validation against Schema]
 
+## Hapi Swagger Documentation.
+* node documentation/index.js [ Hapi Swagger documentation generation ] 
+
 
 
 
