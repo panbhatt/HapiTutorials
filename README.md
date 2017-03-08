@@ -25,10 +25,14 @@
 * node joi/routeValidation.js [ This will check the incoming GET/POST request for validation against Schema]
 
 ## Hapi Swagger Documentation.
-* node documentation/index.js [ Hapi Swagger documentation generation ] 
+* node documentation/index.js [ Hapi Swagger documentation generation ]
 
 
 
 
 ## Plugins that i found helpful
 * https://github.com/shakefon/consistency  : Consitency plugin for API Versioning.
+
+
+## USEFUL LINKS
+* https://github.com/glennjones/hapi-workshop 
