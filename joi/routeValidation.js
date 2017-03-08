@@ -28,6 +28,33 @@ server.route({
     }
 });
 
+// Schema to be validated for the incoming request.
+var userSchema = Joi.object().keys({
+    username: Joi.string().min(4).max(10),
+    password: Joi.string().min(8).required(),
+    email: Joi.string().email(),
+    meta: Joi.object()
+}).xor('username', 'email').unknown();
+
+// post method to accept user schema based object. 
+server.route({
+    method: "POST",
+    path: '/user',
+    config: {
+        validate: {
+            headers: true,
+            query: false,
+            payload: userSchema
+        },
+        handler: function(req, reply) {
+            var obj = {};
+            obj.payload = req.payload;
+            obj.status = 'success';
+            return reply(obj);
+        }
+    }
+})
+
 server.start((err) => {
     if (err) console.log('error', "Unable to start the server ");
     else console.log('info', "Server Started at :-> ", server.info.uri);
