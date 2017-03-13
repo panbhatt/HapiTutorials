@@ -32,7 +32,13 @@
 
 ## Plugins that i found helpful
 * https://github.com/shakefon/consistency  : Consitency plugin for API Versioning.
+* https://www.npmjs.com/package/confidence  [ Confidence for writing the configuration ]
+
+
+## HapiJS Plugins testing one by one.
+* HAPI Authorization plugin : [ https://github.com/toymachiner62/hapi-authorization ] : node pluginsDemo/hapiAuthorization.js
+
 
 
 ## USEFUL LINKS
-* https://github.com/glennjones/hapi-workshop 
+* https://github.com/glennjones/hapi-workshop
