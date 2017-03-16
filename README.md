@@ -37,6 +37,9 @@
 
 ## HapiJS Plugins testing one by one.
 * HAPI Authorization plugin : [ https://github.com/toymachiner62/hapi-authorization ] : node pluginsDemo/hapiAuthorization.js
+* HAPI RBAC plugin : [ https://github.com/franciscogouveia/hapi-rbac/blob/master/API.md ] :
+   1. node pluginsDemo/hapiRbacAuthorizationGlobal.js [For globally applying the authorization ]
+   2. 
 
 
 
