@@ -41,7 +41,7 @@
    1. node pluginsDemo/hapiRbacAuthorizationGlobal.js [For globally applying the authorization ]
    2. node pluginsDemo/hapiRbacAuthorization.js [For applying the authorization locally on the route thus bypassing the global authorization]
 
-
+* HAPI TV Plugin { To show all request/response in the UI } : node pluginsDemo/hapiTv.js
 
 ## USEFUL LINKS
 * https://github.com/glennjones/hapi-workshop
